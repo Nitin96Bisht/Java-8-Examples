@@ -3,6 +3,10 @@ Java 8 is the most awaited and is a major feature release of Java programming la
 
 ## Table of Contents
 * [Stream](#Stream)
+* [Date](#Date)
 
 ### Stream
 Introduced in Java 8, the Stream API is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
+
+### Date
+Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
