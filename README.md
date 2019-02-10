@@ -3,6 +3,12 @@ Java 8 is the most awaited and is a major feature release of Java programming la
 
 ## Table of Contents
 * [Stream](#Stream)
+  * [Filter](#filter)
+  * [Sorted](#sorted)
+  * [Map](#map)
+  * [Match](#match)
+  * [Count](#count)
+  * [Reduce](#reduce)
 * [Date](#Date)
 
 ### Stream
