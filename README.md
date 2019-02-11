@@ -24,7 +24,7 @@ With Java 8, Collection interface has two methods to generate a Stream.
 
 •	parallelStream() − Returns a parallel Stream considering collection as its source.
 
-```
+```java
 List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
 ```
