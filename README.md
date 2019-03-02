@@ -30,6 +30,7 @@ List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).col
 ```
 
 ### Filter
+Java 8 Stream interface introduces filter() method which can be used to filter out some elements from object collection based on a particular condition. This condition should be specified as a predicate which the filter() method accepts as an argument.
 
 ### Sorted
 
