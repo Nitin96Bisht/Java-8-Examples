@@ -20,9 +20,9 @@ Streams are an update to the Java API that lets you manipulate collections of da
 
 With Java 8, Collection interface has two methods to generate a Stream.
 
-•	stream() − Returns a sequential stream considering collection as its source.
+•	<b>stream()</b> − Returns a sequential stream considering collection as its source.
 
-•	parallelStream() − Returns a parallel Stream considering collection as its source.
+•	<b>parallelStream()</b> − Returns a parallel Stream considering collection as its source.
 
 ```java
 List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
