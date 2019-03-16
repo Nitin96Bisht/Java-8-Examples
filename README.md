@@ -43,6 +43,11 @@ Stream<String> longNames = allNames.filter(str -> str.length() > 6);
 ### Map
 Stream map(Function mapper) is an intermediate operation. These operations are always lazy. Intermediate operations are invoked on a Stream instance and after they finish their processing, they give a Stream instance as output.
 
+```java
+List<Integer> list = Arrays.asList(3, 6, 9, 12, 15); 
+list.stream().map(number -> number * 3).forEach(System.out::println); 
+```
+
 ### Match
 
 ### Date
