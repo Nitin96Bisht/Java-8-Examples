@@ -41,6 +41,7 @@ Stream<String> longNames = allNames.filter(str -> str.length() > 6);
 ### Sorted
 
 ### Map
+Stream map(Function mapper) is an intermediate operation. These operations are always lazy. Intermediate operations are invoked on a Stream instance and after they finish their processing, they give a Stream instance as output.
 
 ### Match
 
