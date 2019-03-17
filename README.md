@@ -50,5 +50,9 @@ list.stream().map(number -> number * 3).forEach(System.out::println);
 
 ### Match
 
+### Count
+
+### Reduce
+
 ### Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
