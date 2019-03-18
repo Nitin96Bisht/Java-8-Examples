@@ -39,6 +39,7 @@ Stream<String> longNames = allNames.filter(str -> str.length() > 6);
 ```
 
 ### Sorted
+Stream sorted() returns a stream consisting of the elements of this stream, sorted according to natural order. For ordered streams, the sort method is stable but for unordered streams, no stability is guaranteed. It is a stateful intermediate operation.
 
 ### Map
 Stream map(Function mapper) is an intermediate operation. These operations are always lazy. Intermediate operations are invoked on a Stream instance and after they finish their processing, they give a Stream instance as output.
