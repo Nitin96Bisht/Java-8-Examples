@@ -57,6 +57,7 @@ list.stream().map(number -> number * 3).forEach(System.out::println);
 ### Match
 
 ### Count
+long count() returns the count of elements in the stream.
 
 ### Reduce
 
