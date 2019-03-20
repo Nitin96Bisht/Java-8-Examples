@@ -59,6 +59,11 @@ list.stream().map(number -> number * 3).forEach(System.out::println);
 ### Count
 long count() returns the count of elements in the stream.
 
+```java
+List<Integer> list = Arrays.asList(0, 2, 4, 6, 8, 10, 12);  
+long total = list.stream().count(); 
+```
+
 ### Reduce
 
 ### Date
