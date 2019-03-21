@@ -67,5 +67,10 @@ long total = list.stream().count();
 ### Reduce
 Many times, we need to perform operations where a stream reduces to single resultant value, for example, maximum, minimum, sum, product, etc. Reducing is the repeated process of combining all elements.
 
+```java
+List<Integer> array = Arrays.asList(-2, 0, 4, 6, 8); 
+int sum = array.stream().reduce(0, (element1, element2) -> element1 + element2); 
+```
+
 ### Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
