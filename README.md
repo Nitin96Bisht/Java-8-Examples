@@ -75,3 +75,11 @@ int sum = array.stream().reduce(0, (element1, element2) -> element1 + element2);
 
 ### Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
+
+```java
+LocalDateTime currentTime = LocalDateTime.now();
+System.out.println("Current DateTime: " + currentTime);
+		
+LocalDate date1 = currentTime.toLocalDate();
+System.out.println("date1: " + date1);
+```
