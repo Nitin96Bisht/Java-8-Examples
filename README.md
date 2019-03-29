@@ -77,6 +77,12 @@ int sum = array.stream().reduce(0, (element1, element2) -> element1 + element2);
 Every Java Programmer is familiar with NullPointerException. It can crash your code. And it is very hard to avoid it without using too many null checks.
 Java 8 has introduced a new class Optional in java.util package. It can help in writing neat code without using too many null checks. By using Optional, we can specify alternate values to return or alternate code to run. This makes the code more readable because the facts which were hidden are now visible to the developer.
 
+```java
+List<String> listOfStrings = Arrays.asList("Mark", "Howard", "Anthony D'Cornian");
+Optional<String> largeString = listOfStrings.stream().filter(str -> str.length() > 10).findAny();
+largeString.ifPresent(System.out::println);
+```
+
 ### Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
 
