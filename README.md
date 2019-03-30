@@ -84,6 +84,8 @@ Optional<String> largeString = listOfStrings.stream().filter(str -> str.length()
 largeString.ifPresent(System.out::println);
 ```
 
+## Default Method
+
 ## Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
 
