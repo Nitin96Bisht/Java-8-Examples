@@ -14,7 +14,7 @@ Java 8 is the most awaited and is a major feature release of Java programming la
 * [Default Method](#default-method)
 * [Date](#Date)
 
-### Stream
+## Stream
 Introduced in Java 8, the Stream API is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
 Streams are an update to the Java API that lets you manipulate collections of data in a declarative way (you express a query rather than code an ad hoc implementation for it). For now you can think of them as fancy iterators over a collection of data. In addition, streams can be processed in parallel transparently, without you having to write any multithreaded code.
 
@@ -74,7 +74,7 @@ Many times, we need to perform operations where a stream reduces to single resul
 List<Integer> array = Arrays.asList(-2, 0, 4, 6, 8); 
 int sum = array.stream().reduce(0, (element1, element2) -> element1 + element2); 
 ```
-### Optional
+## Optional
 Every Java Programmer is familiar with NullPointerException. It can crash your code. And it is very hard to avoid it without using too many null checks.
 Java 8 has introduced a new class Optional in java.util package. It can help in writing neat code without using too many null checks. By using Optional, we can specify alternate values to return or alternate code to run. This makes the code more readable because the facts which were hidden are now visible to the developer.
 
@@ -84,7 +84,7 @@ Optional<String> largeString = listOfStrings.stream().filter(str -> str.length()
 largeString.ifPresent(System.out::println);
 ```
 
-### Date
+## Date
 Java 8 introduced new APIs for Date and Time to address the shortcomings of the older java.util.Date and java.util.Calendar.
 
 ```java
