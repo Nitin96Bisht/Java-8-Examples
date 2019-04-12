@@ -12,6 +12,7 @@ Java 8 is the most awaited and is a major feature release of Java programming la
   * [Reduce](#reduce)
 * [Optional](#Optional)
 * [Lambdas](#lambdas)
+* [Functional Interface](#functional-interface)
 * [Default Method](#default-method)
 * [Date](#Date)
 
