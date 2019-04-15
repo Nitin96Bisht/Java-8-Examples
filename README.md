@@ -11,7 +11,7 @@ Java 8 is the most awaited and is a major feature release of Java programming la
   * [Count](#count)
   * [Reduce](#reduce)
 * [Optional](#Optional)
-* [Lambdas](#lambdas)
+* [Lambda Expression](#lambdas)
 * [Functional Interface](#functional-interface)
 * [Default Method](#default-method)
 * [Date](#Date)
@@ -86,7 +86,7 @@ Optional<String> largeString = listOfStrings.stream().filter(str -> str.length()
 largeString.ifPresent(System.out::println);
 ```
 
-## Lambdas
+## Lambda Expression
 Lambda expressions are introduced in Java 8 and are touted to be the biggest feature of Java 8. Lambda expression facilitates functional programming, and simplifies the development a lot.
 
 The Lambda expression is used to provide the implementation of an interface which has functional interface. It saves a lot of code. In case of lambda expression, we don't need to define the method again for providing the implementation. Here, we just write the implementation code.
