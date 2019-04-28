@@ -133,6 +133,21 @@ class Test
 } 
 ```
 
+Java 8 onwards, we can assign lambda expression to its functional interface object like this:
+
+```java
+class Test 
+{ 
+  public static void main(String args[]) 
+  { 
+  
+    // lambda expression to create the object 
+    new Thread(()-> 
+       {System.out.println("New thread created");}).start(); 
+  } 
+} 
+```
+
 ## Default Method
 Before Java 8, interfaces could have only abstract methods. The implementation of these methods has to be provided in a separate class. So, if a new method is to be added in an interface, then its implementation code has to be provided in the class implementing the same interface. To overcome this issue, Java 8 has introduced the concept of default methods which allow the interfaces to have methods with implementation without affecting the classes that implement the interface.
 
