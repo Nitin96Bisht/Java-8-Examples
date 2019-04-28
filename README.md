@@ -113,6 +113,26 @@ Collections.sort(names, (String a, String b) -> {
 ## Functional Interface
 An Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static methods but can contain only one abstract method.
 
+Before Java 8, we had to create anonymous inner class objects or implement these interfaces.
+
+```java
+class Test 
+{ 
+    public static void main(String args[]) 
+    { 
+        // create anonymous inner class object 
+        new Thread(new Runnable() 
+        { 
+            @Override
+            public void run() 
+            { 
+                System.out.println("New thread created"); 
+            } 
+        }).start(); 
+    } 
+} 
+```
+
 ## Default Method
 Before Java 8, interfaces could have only abstract methods. The implementation of these methods has to be provided in a separate class. So, if a new method is to be added in an interface, then its implementation code has to be provided in the class implementing the same interface. To overcome this issue, Java 8 has introduced the concept of default methods which allow the interfaces to have methods with implementation without affecting the classes that implement the interface.
 
