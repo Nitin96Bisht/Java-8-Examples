@@ -61,6 +61,12 @@ list.stream().map(number -> number * 3).forEach(System.out::println);
 ### Match
 Java 8 Matching with Streams tutorial explains how to match elements in a stream using the allMatch(), anyMatch() and noneMatch() methods provided by the Streams API with examples to show their usage.
 
+```java
+List<String> names = Arrays.asList("Melisandre","Aansa","Jon","Daenerys","Joffery");
+Stream<String> allNames = names.stream();
+boolean anyRecordStartsWithA = allNames.anyMatch(s-> s.startsWith("a"));
+```
+
 ### Count
 long count() returns the count of elements in the stream.
 
